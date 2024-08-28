@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+.all-content {
+  background: #fff;
+}
+html ::-webkit-scrollbar-track {
+  background: transparent;
+}
+html ::-webkit-scrollbar-thumb {
+  background: #aadec6;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar {
+  width: 10px;
+  height: 100px;
+}
+
+#navbar {
+  background-color: #c5ead9;
+}
+
+.navbar-nav {
+  margin-left: 50px;
+}
+.nav-item .nav-link {
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.nav-item .nav-link:hover {
+  background: #fff;
+  border-radius: 5px;
+  color: black;
+}
+#navbar form button {
+  background: black;
+  color: white;
+  border: 1 px solid white;
+}
+
+/*home section awal*/
+#home .content {
+  padding-top: 210px;
+  margin-left: 56px;
+}
+#home .content h3 {
+  font-size: 50px;
+  color: black;
+}
+#home .content p {
+  margin-top: 10px;
+  color: black;
+}
+#btn {
+  width: 150px;
+  height: 36px;
+  margin-top: 20px;
+  background: #c5ead9;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn .hover {
+  background: #aadec6;
+  color: white;
+}
+
+/*about section awal*/
+#about {
+  width: 100%;
+  height: 100vh;
+}
+#about .content {
+  padding-top: 70px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.heading span {
+  color: #76dbac;
+}
+#about .card {
+  border-radius: 10px;
+}
+#about .card img {
+  border-radius: 10px;
+}
+#about-btn {
+  width: 200px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #aadec6;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#about-btn:hover {
+  background-color: #aadec6;
+  color: white;
+}
+@media screen and (max-width: 982px) {
+  #about p {
+    font-size: 8px;
+  }
+}
+@media screen and (mac-width: 766px) {
+  #about p {
+    font-size: 15px;
+  }
+  #about {
+    height: 120vh;
+  }
+}
+
+/*about section akhir*/
+
+/*fasilitas awal*/
+.card:hover {
+  border: 3px solid #76dbac;
+}
+/*fasilitas akhir*/
+
+/*fasilitas awal*/
+section {
+  padding: 4rem 0.3rem;
+}
+.section-tittle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+.school {
+  margin-top: 2rem;
+}
+.school-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 1.5rem;
+}
+.OurFacillitation-box {
+  position: relative;
+  background: #c5ead9;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.OurFacillitation-box:hover {
+  background: #aadec6;
+  border: 1px solid white;
+  box-shadow: 0 8px 32px hsl(0.75, 0.82, 0.165, 1);
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.OurFacillitation-box:hover .OurFacillitation-title,
+.OurFacillitation-box:hover {
+  color: black;
+}
+
+.OurFacillitation-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.OurFacillitation-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+/*fasilitas akhir*/
+
+/*sukses awal*/
+.sc-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sc-container img {
+  width: 200px;
+  margin: 2rem 0;
+}
+.sc-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+.sc-container p {
+  max-width: 600px;
+  font-size: 0.97rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.sc-btn {
+  padding: 12px 20px;
+  border-radius: 2rem;
+  background: #aadec6;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/*sukses akhir*/
+
+/*buat responsif awal*/
+@media (max-width: 1080px) {
+  .nav {
+    padding: 14px 0;
+  }
+  section {
+    padding: 3rem 0 2rem;
+  }
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .school {
+    margin-top: 2rem !important;
+  }
+  .sc-container h1 {
+    font-size: 1.5rem;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='date'],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #45a049;
+}
+#displayInformation {
+  display: block; /* Memastikan elemen ditampilkan */
+  visibility: visible; /* Memastikan elemen terlihat */
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+  .nav {
+    padding: 12px 0;
+  }
+}
+.sc-container h1 {
+  font-size: 1.1rem;
+}
+.sc-container p {
+  width: 90%;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 360px) {
+}
+/*buat responsif akhir*/
